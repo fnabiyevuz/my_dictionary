@@ -15,6 +15,7 @@ from pathlib import Path
 import environ
 
 from core.jazzmin_conf import *  # noqa
+# from core.unfold_conf import *  # noqa
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -36,7 +37,8 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 DJANGO_APPS = [
-    "jazzmin",
+    "unfold",
+    # "jazzmin",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -183,3 +185,5 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Basic',
     },
 }
+
+CELERYBEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"

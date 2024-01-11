@@ -8,3 +8,6 @@ django-jazzmin
 django-filter
 django-modeltranslation
 django-ckeditor
+django-unfold
+django-celery-beat==2.5.0
+celery==5.3.6
