@@ -14,3 +14,5 @@ def send_to_channel():
 
     if random_word:
         pass
+
+    return random_word.id

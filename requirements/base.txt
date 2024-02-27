@@ -11,3 +11,5 @@ django-ckeditor
 django-unfold
 django-celery-beat==2.5.0
 celery==5.3.6
+django-celery-beat==2.5.0
+redis==5.0.1

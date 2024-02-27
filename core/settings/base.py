@@ -37,8 +37,8 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 DJANGO_APPS = [
-    "unfold",
-    # "jazzmin",
+    # "unfold",
+    "jazzmin",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -58,6 +58,7 @@ THIRD_PARTY_APPS = [
     "corsheaders",
     "modeltranslation",
     "ckeditor",
+    "django_celery_beat",
 ]
 
 REST_FRAMEWORK = {
